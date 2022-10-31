@@ -8,7 +8,7 @@
 #' @return A statistical calculation for mean or median or standard deviation
 #' @export
 #'
-#' @importFrom tidyverse
+#' @import tidyverse
 #'
 #' @examples
 #' drg_statistics("mean")

@@ -7,7 +7,7 @@
 #' @return A boxplot for the average Medicare payments, the average total payment, or the average covered charges
 #' @export
 #'
-#' @importFrom tidyverse
+#' @import tidyverse
 #'
 #' @examples
 #' drg_statistics("mean")
