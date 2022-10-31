@@ -1,8 +1,10 @@
 #' Statistics for DRG
 #'
-#' @param option
+#'This function calculates statistics over all of the \code{DRG code} for \code{average medicare payments}
 #'
-#' @return
+#' @param option a statistics among mean, median, or standard deviation
+#'
+#' @return A statistical calculation for mean or median or standard deviation
 #' @export
 #'
 #' @examples

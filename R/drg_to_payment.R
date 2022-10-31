@@ -1,8 +1,10 @@
-#'  Boxplot of payments by DRG code
+#' Statistics for DRG
 #'
-#' @param option
+#'This function makes a boxplot of \code{payment} versus \code{DRG code}
 #'
-#' @return
+#' @param option a string name for variable in the DRG dataframe
+#'
+#' @return A plot of \code{payment} versus \code{DRG code}
 #' @export
 #'
 #' @examples
