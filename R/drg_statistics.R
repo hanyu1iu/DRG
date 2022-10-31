@@ -2,7 +2,7 @@
 #'
 #'This function calculates statistics over all of the \code{DRG code} for \code{average medicare payments}
 #'
-#' @param option a statistics among mean, median, or standard deviation
+#' @param option is one of statistics among mean, median, or standard deviation
 #'
 #' @return A statistical calculation for mean or median or standard deviation
 #' @export
