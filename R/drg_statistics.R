@@ -1,10 +1,10 @@
 #' Statistics for DRG
 #'
-#'This function makes a boxplot of \code{payment} versus \code{DRG code}
+#'This function calculates statistics over all of the \code{DRG code} for \code{average medicare payments}
 #'
-#' @param option a string name for variable in the DRG dataframe
+#' @param option a statistics among mean, median, or standard deviation
 #'
-#' @return A plot of \code{payment} versus \code{DRG code}
+#' @return A statistical calculation for mean or median or standard deviation
 #' @export
 #'
 #' @examples
