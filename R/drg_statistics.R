@@ -2,10 +2,12 @@
 #'
 #'This function calculates statistics over all of the \code{DRG code} for \code{average medicare payments}
 #'
-#' @param option is one of statistics among mean, median, or standard deviation
+#' @param option a statistics among mean, median, or standard deviation
 #'
 #' @return A statistical calculation for mean or median or standard deviation
 #' @export
+#' 
+#' @importFrom tidyverse
 #'
 #' @examples
 drg_statistics <- function(option){
