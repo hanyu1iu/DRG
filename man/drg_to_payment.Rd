@@ -2,13 +2,19 @@
 % Please edit documentation in R/drg_to_payment.R
 \name{drg_to_payment}
 \alias{drg_to_payment}
-\title{Boxplot of payments by DRG code}
+\title{Boxplot for DRG}
 \usage{
 drg_to_payment(option)
 }
 \arguments{
-\item{option}{}
+\item{option}{a string name for different payments: Medicare, Total, or Covered.}
+}
+\value{
+A boxplot for the average Medicare payments, the average total payment, or the average covered charges
 }
 \description{
-Boxplot of payments by DRG code
+This function produces a boxplot of payments by DRG code.
+}
+\examples{
+drg_statistics("mean")
 }

@@ -7,8 +7,15 @@
 drg_statistics(option)
 }
 \arguments{
-\item{option}{}
+\item{option}{a string name for statistics mean, median, or standard deviation}
+}
+\value{
+A statistical calculation for mean or median or standard deviation
 }
 \description{
-Statistics for DRG
+This function produces a table of either mean, median, or standard deviations
+of all the 3 digit DRG codes for average Medical payments.
+}
+\examples{
+drg_statistics("mean")
 }

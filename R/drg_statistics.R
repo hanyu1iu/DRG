@@ -1,13 +1,17 @@
 #' Statistics for DRG
 #'
-#'This function calculates statistics over all of the \code{DRG code} for \code{average medicare payments}
+#'This function produces a table of either mean, median, or standard deviations
+#'of all the 3 digit DRG codes for average Medical payments.
 #'
-#' @param option a statistics among mean, median, or standard deviation
+#' @param option a string name for statistics mean, median, or standard deviation
 #'
 #' @return A statistical calculation for mean or median or standard deviation
 #' @export
 #'
+#' @importFrom tidyverse
+#'
 #' @examples
+#' drg_statistics("mean")
 drg_statistics <- function(option){
   drg_stat <- DRG %>%
     group_by(DRG.Definition) %>%

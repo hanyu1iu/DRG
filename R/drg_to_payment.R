@@ -1,13 +1,16 @@
-#' Statistics for DRG
+#' Boxplot for DRG
 #'
-#'This function makes a boxplot of \code{payment} versus \code{DRG code}
+#'This function produces a boxplot of payments by DRG code.
 #'
-#' @param option a string name for variable in the DRG dataframe
+#' @param option a string name for different payments: Medicare, Total, or Covered.
 #'
-#' @return A plot of \code{payment} versus \code{DRG code}
+#' @return A boxplot for the average Medicare payments, the average total payment, or the average covered charges
 #' @export
 #'
+#' @importFrom tidyverse
+#'
 #' @examples
+#' drg_statistics("mean")
 drg_to_payment <- function(option){
   DRG <- DRG %>%
     mutate(DRG.Definition = substr(DRG.Definition, 0, 3))
