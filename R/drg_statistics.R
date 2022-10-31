@@ -7,8 +7,6 @@
 #'
 #' @return A statistical calculation for mean or median or standard deviation
 #' @export
-#' 
-#' @importFrom tidyverse
 #'
 #' @importFrom tidyverse
 #'
