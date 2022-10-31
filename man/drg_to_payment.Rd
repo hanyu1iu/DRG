@@ -9,9 +9,6 @@ drg_to_payment(option)
 \arguments{
 \item{option}{}
 }
-\value{
-
-}
 \description{
 Boxplot of payments by DRG code
 }

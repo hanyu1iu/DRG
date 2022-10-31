@@ -9,9 +9,6 @@ drg_statistics(option)
 \arguments{
 \item{option}{}
 }
-\value{
-
-}
 \description{
 Statistics for DRG
 }
